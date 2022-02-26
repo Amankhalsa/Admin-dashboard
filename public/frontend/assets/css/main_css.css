@@ -1,0 +1,212 @@
+  :root{
+      --ncolor:navy;
+      --maxh:500px;
+      --danger:red;
+      --shadow: 20px 20px 25px black;
+    }
+.service_sec{
+ background-color: var(--ncolor);
+ color: white;
+}
+.welcome_span{
+color: var(--ncolor);
+}
+.navbar-custom {background-image: linear-gradient(navy,black); 
+  font-size: 16px; color:white;}
+/* Modify brand and text color */
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+/*pre loader */
+
+/*preloader*/
+/* ==================================== */
+.blog_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog_heading {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.search_item{
+  width: 100vw;
+  height: 50vh;
+
+  box-sizing: border-box;
+color:black;
+
+  position: relative;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+ 
+}
+
+
+.search_item::before{
+  content: "";
+  background:url('./assets/img/banner.jpg');
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0 ;
+  right: 0;
+  left: 0;
+  opacity: 0.5;
+
+
+
+
+}
+/* ============================== */
+
+    .bg-trans{
+    background-color:rgba(237, 253, 146, 0.3);
+    border-radius: 16px;
+  max-width: 50%;
+    border: 0px solid #0096d6;
+  }
+nav li:hover{color:rgb(207, 206, 206);}
+nav .navbar-nav li a{color: white !important;}
+nav .navbar-nav li a:hover{color: rgb(201, 194, 194) !important;}
+.sub_heading{font-size:20px;word-wrap: break-word;}
+.para{font-size:16px;color: #000000;}
+.main_heading{font-size: 30px;word-wrap: break-word;}
+.banner_para{font-size:18px; word-wrap: break-word;}
+.card2 {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  transition: 0.3s;width: 30%;}
+.dropdown-menu{background-color: #007bff }
+.dropdown-menu .dropdown-item:hover{background-color: #0096D6; }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.card2:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);  border:1px solid #007bff}
+@media only screen and (max-width: 800px) {
+.printers_card .col-md-4{ width:100% !important;}
+}
+
+.product_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 40px;
+  }
+  .product_card:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 172, 43, 0.2);
+
+  }
+  .product_price {
+    color: grey;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .product_card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .product_card button:hover {
+    opacity: 0.7;
+  }
+  .product_valid{
+      font-size:20px;
+      color:rgb(8, 138, 94);
+    font-weight: bold;
+      
+  }
+  .best_pack_btn{
+      position: absolute;
+      top:-8px;
+      right: 245px;
+      background-color: #ed7d31;
+      padding: 5px;
+      border-radius: 10px;
+      color: White;
+      font-weight: bold;
+  }
+.best_pack_btn:hover{
+      cursor: pointer;
+      background-color: #ed7d31;
+}
+/* @media  for mobile screen  */
+@media only screen and (max-width: 480px) {
+  .main_heading{font-size: 20px !important; word-wrap: break-word !important;
+  }
+  .sub_heading{font-size:16px !important; word-wrap: break-word !important;}
+    .para{font-size:14px !important; word-wrap: break-word !important;}
+    .banner_para{font-size:14px  !important; word-wrap: break-word;}
+    .brand_text{font-size:14px  !important; word-wrap: break-word;}
+  }
+  .social-icons .fa{
+    color:white;
+    margin-left: 15px;
+
+  }
+  .social-icons .fa:hover{
+    color: rgb(201, 194, 194) !important;
+  }
+  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem !important; 
+}
+
+
+  /* card hover  */
+  .stand_card {
+    text-align:center;
+
+
+   /* box-shadow: 0px 0px 0px grey; */
+    /* -webkit-transition:  box-shadow .6s ease-out; */
+       /* box-shadow: .8px .9px 3px grey; */
+         /* background-color: transparent; */
+  
+  }
+  /* .stand_card  :hover{ 
+       box-shadow: 1px 8px 20px grey;
+         background-color: transparent;
+      -webkit-transition:  box-shadow .6s ease-in;
+     
+    } */
+
+    .zoom {
+      /* padding: 50px;
+      background-color: green; */
+      transition: transform 0.5s; /* Animation */
+      /* width: 200px;
+      height: 200px; */
+      margin: 0 auto;
+
+    }
+    
+    .zoom:hover {
+      transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
